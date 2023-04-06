@@ -6,5 +6,6 @@
 * Luego, se comparó el desempeño de los mejores modelos para cada variación del algoritmo y se seleccionó el mejor de ellos. 
 * Finalmente, se aplicó la técnica de permutación para poder identificar las variables más importantes para el modelo y poder así interpretar el mismo.
 
+<div class="text-center">
 <img src="images/scores1.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test.png" alt="Alt text 2" width="400"/>
-
+</div>
