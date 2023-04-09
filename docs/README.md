@@ -17,9 +17,9 @@
 * Se usaron diversas métricas para determinar los hiperparámetros. Entre ellas está la métrica de la silueta, la inercia (elbow curve) y la métrica BIC (Bayesian Information Criterion) 
 * Luego, se comparó el desempeño de los mejores modelos de cada algoritmo y se seleccionó el mejor de ellos. 
 <p align="center">
-<img src="referencias/images1/comparison.png" alt="Alt text 1" width="400"/>
+<img src="images1/comparison.png" alt="Alt text 1" width="400"/>
 </p>
 * Finalmente, se inspeccionó visualmente los resultados.
 <p align="center">
-<img src="referencias/images1/result1.png" alt="Alt text 1" width="300"/> <img src="referencias/images1/result2.png" alt="Alt text 2" width="300"/>
+<img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
 </p>
