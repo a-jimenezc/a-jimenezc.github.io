@@ -2,7 +2,7 @@
 
 * El objetivo del presente trabajo es segmentar a los clientes de un supermercado en un número reducido de grupos, esto a partir de información obtenida a través de las tarjetas de membresía.
 * Para ello, tres algoritmos de agrupamiento distintos fueron implementados: K-means, HDBSCAN y Gaussian Mixture Model. En cada caso,  se determinaron los mejores hiperparámetros. Se utilizó la biblioteca Scikit-learn para K-means y GMM, mientras que para el algoritmo HDBSCAN se utilizó la implementación provista por la biblioteca hdbscan. 
-* Se usaron diversas métricas para determinar los hiperparámetros. Entre ellas está la métrica de la silueta, la inercia (elbow curve) y la métrica BIC (Bayesian Information Criterion) 
+* Se usaron diversas métricas para determinar los hiperparámetros. Entre ellas está la métrica de la silueta, la inercia (elbow curve) y la métrica BIC (Bayesian Information Criterion). 
 * Luego, se comparó el desempeño de los mejores modelos de cada algoritmo y se seleccionó el mejor de ellos. 
 <p align="center">
 <img src="images1/comparison.png" alt="Alt text 1" width="400"/>
