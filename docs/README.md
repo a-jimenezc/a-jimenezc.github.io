@@ -19,7 +19,8 @@
 <p align="center">
 <img src="images1/comparison.png" alt="Alt text 1" width="400"/>
 </p>
-* Finalmente, se inspeccionó visualmente los resultados.
+* Adicionalmente, se inspeccionó visualmente el resultado para el mejor model.
 <p align="center">
 <img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
 </p>
+* Finalmente, se guardaron los datos con la nueva columna de etiquetas.
