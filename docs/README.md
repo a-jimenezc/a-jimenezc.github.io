@@ -7,11 +7,11 @@
 <p align="center">
 <img src="images1/comparison.png" alt="Alt text 1" width="400"/>
 </p>
-* Adicionalmente, se inspeccionó visualmente el resultado para el mejor model.
+* Adicionalmente, se inspeccionó visualmente el resultado para el mejor modelo.
+* Finalmente, se guardaron los datos con la nueva columna de etiquetas.
 <p align="center">
 <img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
 </p>
-* Finalmente, se guardaron los datos con la nueva columna de etiquetas.
 
 
 ## [ Predicción de Enfermedad Cardiaca con Redes Neuronales](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
