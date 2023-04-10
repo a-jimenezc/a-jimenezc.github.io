@@ -22,6 +22,7 @@
 * Luego, se comparó el desempeño de los mejores modelos de cada algoritmo y se seleccionó el mejor de ellos. 
 <p align="center">
 <img src="images1/comparison.png" alt="Alt text 1" width="400"/>
+</p>
 * Adicionalmente, se inspeccionó visualmente el resultado para el mejor modelo.
 * Finalmente, se guardaron los datos con la nueva columna de etiquetas.
 <p align="center">
@@ -38,4 +39,4 @@
 
 <p align="center">
 <img src="images/scores1.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test.png" alt="Alt text 2" width="400"/>
- 
+</p>
