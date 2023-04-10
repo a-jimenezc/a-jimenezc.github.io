@@ -9,13 +9,10 @@
 * Se utilizó la métrica *f1* como referencia para la búsqueda de los mejores hiperparmámetros.
 * Se seleccionó el mejor algoritmo, tomando *f1* como métrica de comparación.  
 <p align="center">
-<img src="images2/score.png" alt="Alt text 1" width="400"/>
+<img src="images2/scores.png" alt="Alt text 1" width="400"/>
 </p>
 * El algoritmo seleccionado es "Gradient Boosting", con "learning_rate=1" y "n_estimators=600".
 * Una vez entrenado este modelo, se puede ver que tiene un buen desempeño con las métricas *precision* y *recall* para ambas clases.
-<p align="center">
-<img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
-</p>
 
 
 ## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
@@ -26,7 +23,6 @@
 * Luego, se comparó el desempeño de los mejores modelos de cada algoritmo y se seleccionó el mejor de ellos. 
 <p align="center">
 <img src="images1/comparison.png" alt="Alt text 1" width="400"/>
-</p>
 * Adicionalmente, se inspeccionó visualmente el resultado para el mejor modelo.
 * Finalmente, se guardaron los datos con la nueva columna de etiquetas.
 <p align="center">
@@ -43,5 +39,4 @@
 
 <p align="center">
 <img src="images/scores1.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test.png" alt="Alt text 2" width="400"/>
-</p>
  
