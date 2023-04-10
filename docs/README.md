@@ -3,13 +3,13 @@
 * El objetivo del presente trabajo es desarrollar un modelo que permita predecir si un cliente cancelará o no su reservación de hotel. Se prioriza la capacidad de predicción del modelo sobre la explicabilidad.
 * En la exploración inicial de datos, se identificaron las variables que guardan la mayor correlación con la variable objetivo. Dada la naturaleza binaria de la variable objetivo, se utilizó la correlación de Spearman.
 <p align="center">
-<img src="images2/corr_bar.png" alt="Alt text 1" width="400"/>
+<img src="images2/corr_bar1.png" alt="Alt text 1" width="400"/>
 
 * Se entrenaron cuatro modelos diferentes: *Logistic Regression, K-Nearest Neighbor, Extra Tree Classifier* y *Gradient Boosting*. En cada caso,  se determinaron los mejores hiperparámetros utilizando *Grid Search* con *Cross-Validation*. Para tal propósito, se usó la libreria Scikit-learn.
 * Se utilizó la métrica *f1* como referencia para la búsqueda de los mejores hiperparmámetros.
 * Se seleccionó el mejor algoritmo, tomando *f1* como métrica de comparación.  
 <p align="center">
-<img src="images2/scores.png" alt="Alt text 1" width="400"/>
+<img src="images2/scores1.png" alt="Alt text 1" width="400"/>
 </p>
 * El algoritmo seleccionado es *Gradient Boosting*, con "learning_rate=1" y "n_estimators=600".
 * Una vez entrenado este modelo, se puede ver que tiene un buen desempeño con las métricas *precision* y *recall* para ambas clases.
