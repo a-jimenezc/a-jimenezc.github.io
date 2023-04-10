@@ -6,7 +6,7 @@
 <img src="images2/corr_bar.png" alt="Alt text 1" width="400"/>
 </p>
 * Se entrenaron cuatro modelos diferentes: *Logistic Regression, K-Nearest Neighbor, Extra Tree Classifier* y *Gradient Boosting*. En cada caso,  se determinaron los mejores hiperparámetros utilizando *Grid Search* con *Cross Validation*. Para tal propósito, se usó la libreria Scikit-learn.
-* Se utilizó la métrica *f1* como referencia para la búsqueda de los mejores hiperparmámetros..
+* Se utilizó la métrica *f1* como referencia para la búsqueda de los mejores hiperparmámetros.
 * Se seleccionó el mejor algoritmo, tomando *f1* como métrica de comparación.  
 <p align="center">
 <img src="images2/score.png" alt="Alt text 1" width="400"/>
