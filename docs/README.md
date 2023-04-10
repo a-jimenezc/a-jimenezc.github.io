@@ -9,9 +9,9 @@
 * Se seleccionó el mejor algoritmo, tomando *f1* como métrica de comparación.  
 <p align="center">
 <img src="images2/scores1.png" alt="Alt text 1" width="400"/>
-</p>
+
 * El algoritmo seleccionado es *Gradient Boosting*, con "learning_rate=1" y "n_estimators=600".
-* Una vez entrenado este modelo, se puede ver que tiene un buen desempeño con las métricas *precision* y *recall* para ambas clases.
+* Una vez entrenado este modelo, se compruebá que tiene un buen desempeño con las métricas *precision* y *recall* para ambas clases.
 
 
 ## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
