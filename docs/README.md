@@ -11,7 +11,7 @@
 <img src="images2/scores1.png" alt="Alt text 1" width="400"/>
 
 * El algoritmo seleccionado es *Gradient Boosting*, con "learning_rate=1" y "n_estimators=600".
-* Una vez entrenado este modelo, se compruebá que tiene un buen desempeño con las métricas *precision* y *recall* para ambas clases.
+* Una vez entrenado este modelo, se comprueba que tiene un buen desempeño con las métricas *precision* y *recall* para ambas clases.
 
 
 ## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
