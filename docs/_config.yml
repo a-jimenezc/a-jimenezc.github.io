@@ -3,7 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: [Portafolio de Antonio]
-description: ["En este espacio presento mis proyectos de Ciencia de Datos."]
-contact_info:
-  email: [example@example.com]
-  linkedin: [https://www.linkedin.com/in/your-linkedin-profile-url]
+description: ["Te doy la bienvenida a mi portafolio de ciencia de datos, donde podrás conocer mis proyectos y experiencias en este campo tan fascinante. Explora mi trabajo y descubre cómo generé valor y obtuve ideas o conocimientos significativos a partir de los datos. Para más detalles, visita los enlaces de cada proyecto."]
+
