@@ -4,3 +4,7 @@ plugins:
 
 title: [Portafolio de Antonio]
 description: ["En este espacio presento mis proyectos de Ciencia de Datos."]
+
+contact_info:
+  email: your.email@example.com
+  linkedin: https://www.linkedin.com/in/your-linkedin-profile
