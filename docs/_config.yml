@@ -10,3 +10,4 @@ contact_info:
   linkedin: https://www.linkedin.com/in/your-linkedin-profile
   
 {% include head.html %}
+ 
