@@ -46,4 +46,3 @@
 - LinkedIn: [www.linkedin.com/in/antonio-jimnzc](https://www.linkedin.com/in/antonio-jimnzc)
 - GitHub: [github.com/a-jimenezc](https://github.com/a-jimenezc)
 
-<i class="fas fa-envelope"></i> [your.email@example.com](mailto:your.email@example.com)
