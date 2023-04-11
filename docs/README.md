@@ -40,3 +40,9 @@
 <p align="center">
 <img src="images/scores1.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test.png" alt="Alt text 2" width="400"/>
 </p>
+
+## Contact Information
+
+- Email: [antonio.jimzC@gmail.com](mailto:antonio.jimzC@gmail.com)
+- LinkedIn: [www.linkedin.com/in/antonio-jimnzc](https://www.linkedin.com/in/antonio-jimnzc)
+- GitHub: [github.com/a-jimenezc](https://github.com/a-jimenezc)
