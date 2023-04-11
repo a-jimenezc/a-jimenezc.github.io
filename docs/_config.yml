@@ -4,12 +4,3 @@ plugins:
 
 title: [Portafolio de Antonio]
 description: ["En este espacio presento mis proyectos de Ciencia de Datos."]
-
----
-title: GitHub
-permalink: /github/
----
-
-Here you can add your GitHub link, for example:
-
-[GitHub Repository](https://github.com/your-username/your-repo)
