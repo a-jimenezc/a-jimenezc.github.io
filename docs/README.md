@@ -34,7 +34,7 @@
 
 * El objetivo de este proyecto es entrenar una Red Neuronal que permita predecir si un paciente presenta un cuadro de enfermedad de arterias coronarias.
 * Para ello, se probaron tres variaciones del algoritmo *MLP* (Multilayer Perceptron): primero con una, luego con dos y finalmente con tres capas ocultas. En cada caso, se utilizó *Grid Seach* con *Cross-Validation* para seleccionar los hiperparámetros. 
-* Luego, se comparó el desempeño de cada variación del algoritmo, utilizando la métrica *Accuracy*, y se seleccionó el mejor de ellos. Este fue el modelo con una capa oculta con 35 neuronas.
+* Luego, se comparó el desempeño de cada variación del algoritmo, utilizando la métrica *Accuracy*, y se seleccionó el mejor de ellos. Este fue el modelo con una capa oculta con 30 neuronas.
 * Finalmente, se aplicó la técnica de permutación para poder identificar las variables más importantes para el modelo y poder así interpretar el mismo.
 
 <p align="center">
