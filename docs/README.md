@@ -44,7 +44,7 @@
 ## [ Predicción del PH de la Planta de Tratameinto de Agua Potable Achachicala](https://github.com/a-jimenezc/Prediccion-PH-de-Agua "Clic para acceder al repositorio")
 
 * El objetivo del presente trabajo es desarrollar un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala, ubicada en la ciudad de La Paz, a partir de los datos tomados diariamente en un lapso de 6 meses.
-* e primer paso fue realizar una exploración inicial de datos. 
+* El primer paso fue realizar una exploración inicial de datos. 
 
 <p align="center">
 <img src="images2/serie.png" alt="Alt text 1" width="500"/> <img src="images2/violin.png" alt="Alt text 2" width="500"/>
