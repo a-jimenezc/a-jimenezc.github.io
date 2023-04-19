@@ -41,9 +41,9 @@
 <img src="images/scores2.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test1.png" alt="Alt text 2" width="400"/>
 </p>
 
-## [ Predicción de Enfermedad Cardiaca con Redes Neuronales](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
+## [ Predicción del PH de Planta de Tratameinto de Agua Potable Achachicala](https://github.com/a-jimenezc/Prediccion-PH-de-Agua "Clic para acceder al repositorio")
 
-* El objetivo del presente trabajo es desarrollar un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala a partir de los datos tomados diariamente en un lapso de 6 meses.
+* El objetivo del presente trabajo es desarrollar un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala, ubicada en la ciudad de La Paz, a partir de los datos tomados diariamente en un lapso de 6 meses.
 * Primero, se realizó una exploración inicial de datos. 
 
 <p align="center">
