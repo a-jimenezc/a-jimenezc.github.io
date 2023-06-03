@@ -3,5 +3,5 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: [Portafolio de Antonio]
-description: ["Bienvenido a mi portafolio de ciencia de datos. Aquí podrás conocer mis proyectos y experiencias en este campo tan fascinante. Explora mi trabajo y descubre cómo generé valor y obtuve ideas o conocimientos significativos a partir de los datos. Para más detalles, visita los enlaces de cada proyecto."]
+description: ["Bienvenido a mi portafolio de ciencia de datos. Aquí podrás conocer mis proyectos en este campo tan fascinante. Para más detalles, visita los enlaces de cada proyecto."]
 
