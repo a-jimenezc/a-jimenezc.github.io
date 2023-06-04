@@ -6,11 +6,12 @@
 * Se implementó una página web interactiva utilizando **Dash**, **Docker** y el servicio **Cloud Run** de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
 * En la misma página, se pesenta un **dashboard interactivo** en el cual es posible explorar los datos utilizados en el modelo.
 
+
 <p align="center">
-<img src="images3/tipo.png" alt="Alt text 1" width="400"/>
+<img src="images3/app3.png" alt="Alt text 1" width="300"/>
 </p>
 <p align="center">
-<img src="images3/app1.png" alt="Alt text 1" width="300"/> <img src="images3/app2.png" alt="Alt text 2" width="500"/>
+<img src="images3/app2.png" alt="Alt text 2" width="500"/>
 </p>
 
 
