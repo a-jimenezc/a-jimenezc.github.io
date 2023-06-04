@@ -1,3 +1,8 @@
+<a href="https://github.com/a-jimenezc">
+<i class='fa fa-github'></i> 
+GitHub
+</a>
+
 ## [Predictor de Precio de Vivienda: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
 
 * Se desarrolló un estimador de precios de viviendas para la ciudad Santa Cruz de la Sierra. El modelo se hace accesible el mediante una aplicación de dash: [bienes-raices-scz-ohh5653uva-uc.a.run.app](https://bienes-raices-scz-ohh5653uva-uc.a.run.app/).
