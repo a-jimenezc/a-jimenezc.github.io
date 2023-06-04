@@ -23,7 +23,7 @@
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           
-                    <style>
+          <style>
             #contacto {
               color: rgb(255, 255, 255);    
               font-family: Arial, sans-serif;
@@ -32,8 +32,8 @@
             }
           </style>
           <style>
-            a {
-              color: rgb(255, 255, 255); /* Change this to your desired color */
+            a.custom-link {
+              color: rgb(255, 255, 255);
             }
           </style>
 
@@ -41,7 +41,7 @@
             #contacto,
             a {
               display: inline-block;
-              margin-right: 15px; /* Adjust this value to add spacing between elements */
+              margin-right: 15px;
             }
           </style>
 
@@ -49,15 +49,15 @@
             Contacto:
           </p>
 
-          <a href="mailto:antonio.jimzc@gmail.com">
+          <a class="custom-link" href="mailto:antonio.jimzc@gmail.com">
             <i class='fa fa-envelope'></i>
             Email
           </a>
-          <a href="www.linkedin.com/in/antonio-jimnzc">
+          <a class="custom-link" href="www.linkedin.com/in/antonio-jimnzc">
             <i class='fa fa-linkedin'></i>
             Linkedin
           </a>
-          <a href="https://github.com/a-jimenezc">
+          <a class="custom-link" href="https://github.com/a-jimenezc">
             <i class='fa fa-github'></i>
             GitHub
           </a>
