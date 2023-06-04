@@ -1,10 +1,10 @@
 ## [Predictor de Precio de Vivienda: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
 
 * Se desarrolló un estimador de precios de viviendas para la ciudad Santa Cruz de la Sierra. El modelo se hace accesible el mediante una aplicación de dash: [bienes-raices-scz-ohh5653uva-uc.a.run.app](https://bienes-raices-scz-ohh5653uva-uc.a.run.app/).
-* Se utilizó *web scraping* para extraer datos de páginas de venta de viviendas. Se realizó un preprocesamiento de estos datos y un análisis exploratorio de los mismos.
-* Se entrenaron varios modelos de regresión, incluyendo Gradient Boosting Regressor, y se evaluó su desempeño utilizando R2 (coeficiente de determinación) como métrica.
-* Se implementó una página web interactiva utilizando Dash, Docker y el servicio *Cloud Run* de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
-* En la misma página, se pesenta un dashboard interactivo en el cual es posible explorar los datos utilizados en el modelo.
+* Se utilizó **web scraping** para extraer datos de páginas de venta de viviendas. Se realizó un preprocesamiento de estos datos y un análisis exploratorio de los mismos.
+* Se entrenaron varios modelos de regresión, incluyendo **Gradient Boosting Regressor**, y se evaluó su desempeño utilizando **R2** (coeficiente de determinación) como métrica.
+* Se implementó una página web interactiva utilizando **Dash**, **Docker** y el servicio **Cloud Run** de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
+* En la misma página, se pesenta un **dashboard interactivo** en el cual es posible explorar los datos utilizados en el modelo.
 
 <p align="center">
 <img src="images3/tipo.png" alt="Alt text 1" width="400"/>
@@ -17,13 +17,13 @@
 ## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
 
 * Se segmentaron a los clientes de un supermercado, usando la información obtenida a través de las tarjetas de membresía del mismo y con la limitación de un reducido número de segmentos.
-* Tres algoritmos de agrupamiento distintos fueron evaluados: *K-means, HDBSCAN* y *Gaussian Mixture Model*. Se utilizó la librería Scikit-learn para K-means y GMM, mientras que para el algoritmo *HDBSCAN* se utilizó la librería hdbscan.
-* Para la determinación de los hiperparámetros, se utilizaron las métricas de la silueta, la inercia y *BIC* (Bayesian Information Criterion).  
+* Tres algoritmos de agrupamiento distintos fueron evaluados: **K-means, HDBSCAN** y **Gaussian Mixture Model**. Se utilizó la librería **Scikit-learn** para K-means y GMM, mientras que para el algoritmo *HDBSCAN* se utilizó la librería **hdbscan**.
+* Para la determinación de los hiperparámetros, se utilizaron las **métricas de la silueta, la inercia** y **BIC** (Bayesian Information Criterion).  
 * Luego, se comparó el desempeño de los modelos, usando la métrica de la silueta, y se seleccionó el mejor de ellos.
 <p align="center">
 <img src="images1/comparison.png" alt="Alt text 1" width="400"/>
 </p>
-* El mejor modelo fue K-means con cuatro segmentos o grupos (clusters).
+* El mejor modelo fue **K-means** con cuatro segmentos o grupos (clusters).
 * Finalmente, se inspeccionó visualmente el resultado para el mejor modelo y se guardaron los datos con la nueva columna de etiquetas.
 <p align="center">
 <img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
@@ -39,7 +39,7 @@
 <img src="images2/serie.png" alt="Alt text 1" width="500"/> <img src="images2/violin.png" alt="Alt text 2" width="500"/>
 </p>
 
-* Luego, se probaron tres modelos diferentes. El primero fue un modelo ARMA, el segundo un modelo RNN (*Recurrent Neural Network*) y el tercero fue un LSTM (*Long-Short Term Memory*).
+* Luego, se probaron tres modelos diferentes. El primero fue un modelo **ARMA**, el segundo un modelo **RNN** (*Recurrent Neural Network*) y el tercero fue un **LSTM** (*Long-Short Term Memory*).
 * Finalmente, se seleccionó el modelo ARMA. Esto debido a su buen desempeño y simplicidad.
 
 <p align="center">
@@ -54,29 +54,23 @@
 <p align="center">
 <img src="images2/corr_bar1.png" alt="Alt text 1" width="400"/>
 </p>
-* Se entrenaron cuatro modelos diferentes: *Logistic Regression, K-Nearest Neighbor, Extra Tree Classifier* y *Gradient Boosting*. Los hiperparámetros se determinaron con *Grid Search* con *Cross-Validation*, usando la librería Scikit-learn. Se utilizó la métrica *f1* como referencia para esta búsqueda.
+* Se entrenaron cuatro modelos diferentes: **Logistic Regression, K-Nearest Neighbor, Extra Tree Classifier** y **Gradient Boosting**. Los hiperparámetros se determinaron con **Grid Search** con **Cross-Validation**, usando la librería Scikit-learn. Se utilizó la métrica **f1** como referencia para esta búsqueda.
 * Luego, se hizo la comparación de los modelos para seleccionar el mejor.  
 <p align="center">
 <img src="images2/scores1.png" alt="Alt text 1" width="400"/>
 </p>
-* El algoritmo seleccionado es *Gradient Boosting*, con "learning_rate=1" y "n_estimators=600".
+* El algoritmo seleccionado es **Gradient Boosting**, con "learning_rate=1" y "n_estimators=600".
 * Una evaluación posterior muestra que este modelo tiene un buen desempeño con las métricas *precision* y *recall*.
 
 
 ## [ Predicción de Enfermedad Cardiaca con Redes Neuronales](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
 
 * Se entrenó una Red Neuronal que permita predecir si un paciente presenta un cuadro de enfermedad de arterias coronarias.
-* Para ello, se probaron tres variaciones del algoritmo *MLP* (Multilayer Perceptron): primero con una, luego con dos y finalmente con tres capas ocultas. En cada caso, se utilizó *Grid Seach* con *Cross-Validation* para seleccionar los hiperparámetros. 
-* Luego, se comparó el desempeño de cada variación del algoritmo, utilizando la métrica *Accuracy*, y se seleccionó el mejor de ellos. Este fue el modelo con una capa oculta con 30 neuronas.
-* Finalmente, se aplicó la técnica de permutación para poder identificar las variables más importantes para el modelo y poder así interpretar el mismo.
+* Para ello, se probaron tres variaciones del algoritmo **MLP** (Multilayer Perceptron): primero con una, luego con dos y finalmente con tres capas ocultas. En cada caso, se utilizó **Grid Seach** con **Cross-Validation** para seleccionar los hiperparámetros. 
+* Luego, se comparó el desempeño de cada variación del algoritmo, utilizando la métrica **Accuracy**, y se seleccionó el mejor de ellos. Este fue el modelo con una capa oculta con 30 neuronas.
+* Finalmente, se aplicó la **técnica de permutación** para poder identificar las variables más importantes para el modelo y poder así interpretar el mismo.
 
 <p align="center">
 <img src="images/scores2.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test1.png" alt="Alt text 2" width="400"/>
 </p>
-
-
-## Información de Contacto
-- Email: [antonio.jimzC@gmail.com](mailto:antonio.jimzC@gmail.com)
-- LinkedIn: [www.linkedin.com/in/antonio-jimnzc](https://www.linkedin.com/in/antonio-jimnzc)
-- GitHub: [github.com/a-jimenezc](https://github.com/a-jimenezc) 
 
