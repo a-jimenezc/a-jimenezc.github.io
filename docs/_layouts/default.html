@@ -22,6 +22,47 @@
 
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          
+                    <style>
+            #contacto {
+              color: rgb(255, 255, 255);    
+              font-family: Arial, sans-serif;
+              font-size: 20px;
+              /*font-weight: bold;*/
+            }
+          </style>
+          <style>
+            a {
+              color: rgb(255, 255, 255); /* Change this to your desired color */
+            }
+          </style>
+
+          <style>
+            #contacto,
+            a {
+              display: inline-block;
+              margin-right: 15px; /* Adjust this value to add spacing between elements */
+            }
+          </style>
+
+          <p id="contacto">
+            Contacto:
+          </p>
+
+          <a href="mailto:antonio.jimzc@gmail.com">
+            <i class='fa fa-envelope'></i>
+            Email
+          </a>
+          <a href="www.linkedin.com/in/antonio-jimnzc">
+            <i class='fa fa-linkedin'></i>
+            Linkedin
+          </a>
+          <a href="https://github.com/a-jimenezc">
+            <i class='fa fa-github'></i>
+            GitHub
+          </a>
+          
+          
 
           {% if site.show_downloads %}
             <section id="downloads">
