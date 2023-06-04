@@ -5,6 +5,7 @@
 * Se entrenaron varios modelos de regresión, incluyendo **Gradient Boosting Regressor**, y se evaluó su desempeño utilizando **R2** (coeficiente de determinación) como métrica.
 * Se implementó una página web interactiva utilizando **Dash**, **Docker** y el servicio **Cloud Run** de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
 * En la misma página, se pesenta un **dashboard interactivo** en el cual es posible explorar los datos utilizados en el modelo.
+* [Link al repositorio](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
 
 
 <p align="center">
@@ -26,6 +27,7 @@
 </p>
 * El mejor modelo fue **K-means** con cuatro segmentos o grupos (clusters).
 * Finalmente, se inspeccionó visualmente el resultado para el mejor modelo y se guardaron los datos con la nueva columna de etiquetas.
+* [Link al repositorio](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
 <p align="center">
 <img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
 </p>
@@ -41,7 +43,8 @@
 </p>
 
 * Luego, se probaron tres modelos diferentes. El primero fue un modelo **ARMA**, el segundo un modelo **RNN** (*Recurrent Neural Network*) y el tercero fue un **LSTM** (*Long-Short Term Memory*).
-* Finalmente, se seleccionó el modelo ARMA. Esto debido a su buen desempeño y simplicidad.
+* Finalmente, se seleccionó el modelo **ARMA**. Esto debido a su buen desempeño y simplicidad.
+* [Link al repositorio](https://github.com/a-jimenezc/Prediccion-PH-de-Agua "Clic para acceder al repositorio")
 
 <p align="center">
 <img src="images2/arma.png" alt="Alt text 1" width="400"/> 
@@ -62,6 +65,8 @@
 </p>
 * El algoritmo seleccionado es **Gradient Boosting**, con "learning_rate=1" y "n_estimators=600".
 * Una evaluación posterior muestra que este modelo tiene un buen desempeño con las métricas *precision* y *recall*.
+* [Link al repositorio](https://github.com/a-jimenezc/Prediccion_cancelacion_reserva_de_hotel "Clic para acceder al repositorio")
+
 
 
 ## [ Predicción de Enfermedad Cardiaca con Redes Neuronales](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
@@ -70,6 +75,7 @@
 * Para ello, se probaron tres variaciones del algoritmo **MLP** (Multilayer Perceptron): primero con una, luego con dos y finalmente con tres capas ocultas. En cada caso, se utilizó **Grid Seach** con **Cross-Validation** para seleccionar los hiperparámetros. 
 * Luego, se comparó el desempeño de cada variación del algoritmo, utilizando la métrica **Accuracy**, y se seleccionó el mejor de ellos. Este fue el modelo con una capa oculta con 30 neuronas.
 * Finalmente, se aplicó la **técnica de permutación** para poder identificar las variables más importantes para el modelo y poder así interpretar el mismo.
+* [Link al repositorio](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
 
 <p align="center">
 <img src="images/scores2.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test1.png" alt="Alt text 2" width="400"/>
