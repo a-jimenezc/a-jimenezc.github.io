@@ -5,8 +5,7 @@
 * Se entrenaron varios modelos de regresión, incluyendo **Gradient Boosting Regressor**, y se evaluó su desempeño utilizando **R2** (coeficiente de determinación) como métrica.
 * Se implementó una página web interactiva utilizando **Dash**, **Docker** y el servicio **Cloud Run** de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
 * En la misma página, se pesenta un **dashboard interactivo** en el cual es posible explorar los datos utilizados en el modelo.
-* [Link al repositorio](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
-
+* **[Link al repositorio](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")**
 
 <p align="center">
 <img src="images3/app3.png" alt="Alt text 1" width="300"/>
@@ -15,6 +14,7 @@
 <img src="images3/app2.png" alt="Alt text 2" width="500"/>
 </p>
 
+* Adicionalmente se implementó una **API** usando **Flask** para acceder al modelo: [Link al repositorio de la API](https://github.com/a-jimenezc/bienes_raices_scz_api "Clic para acceder al repositorio").
 
 ## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
 
