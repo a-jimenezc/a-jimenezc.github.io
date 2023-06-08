@@ -14,7 +14,7 @@
 <img src="images3/app2.png" alt="Alt text 2" width="500"/>
 </p>
 
-* Adicionalmente se implementó una **API** usando **Flask** para acceder al modelo: [Link al repositorio de la API](https://github.com/a-jimenezc/bienes_raices_scz_api "Clic para acceder al repositorio").
+* Adicionalmente el modelo es accesible mediante una **API** implmenetada usando **Flask**. [Link al repositorio de la API](https://github.com/a-jimenezc/bienes_raices_scz_api "Clic para acceder al repositorio").
 
 ## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
 
