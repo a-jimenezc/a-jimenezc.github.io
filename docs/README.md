@@ -1,6 +1,6 @@
 ## [Predictor de Precio de Vivienda: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
 
-* Se desarrolló un estimador de precios de viviendas para la ciudad Santa Cruz de la Sierra. El modelo se hace accesible el mediante una aplicación de dash: [bienes-raices-scz-ohh5653uva-uc.a.run.app](https://bienes-raices-scz-ohh5653uva-uc.a.run.app/).
+* Se desarrolló un estimador de precios de viviendas para la ciudad Santa Cruz de la Sierra. El modelo se hace accesible el mediante una aplicación de dash: [bienes-raices-scz-ohh5653uva-uc.a.run.app](https://bienes-raices-scz-q3sojgpqiq-uc.a.run.app/).
 * Se utilizó **web scraping** para extraer datos de páginas de venta de viviendas. Se realizó un preprocesamiento de estos datos y un análisis exploratorio de los mismos.
 * Se entrenaron varios modelos de regresión, incluyendo **Gradient Boosting Regressor**, y se evaluó su desempeño utilizando **R2** (coeficiente de determinación) como métrica.
 * Se implementó una página web interactiva utilizando **Dash**, **Docker** y el servicio **Cloud Run** de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
