@@ -1,9 +1,7 @@
 ## [Detector de Enfermedades de Plantas](https://github.com/a-jimenezc/plant-disease-app/ "Clic para acceder al repositorio")
 
-* Se hace disponible una página web que permite subir la fotografía de hojas de plantas y, a partir de esta,  detectar el tipo de hoja y el tipo de enfermedad de la misma.
-* Para tal propósito se usó el algoritmo de detección de objetos [**YOLOv7**](https://arxiv.org/abs/2207.02696) y su implementación open-source hecha por [Wong Kin Yiu](https://github.com/WongKinYiu/yolov7).
-* El algoritmo está implementado en Pythorch, pero la inferencia se realiza usando el formato **ONNX**..
-* La base de datos utilizada fue: [PlantDoc: A Dataset for Visual Plant Disease Detection](https://github.com/pratikkayal/PlantDoc-Dataset). En esta se tienen **13 especies** y hasta **17 enfermedades diferentes**.
+* Se construye una página web que permite subir una fotografía de las hojas de una planta y, a partir de esta,  detectar el tipo de hoja y el tipo de enfermedad en la misma. La misma tiene la capacidad de detectar **13 especies** de plantas y hasta **17 enfermedades diferentes**.
+* Para tal propósito se usó el algoritmo de detección de objetos [**YOLOv7**](https://arxiv.org/abs/2207.02696) y la implementación open-source hecha por [Wong Kin Yiu](https://github.com/WongKinYiu/yolov7). El algoritmo está implementado en PyThorch, pero la inferencia se realiza usando el formato **ONNX**.
 * La página web se desplegó utilizando **Docker** y el servicio *serverless* de **Google Cloud Platfom**: Cloud Run.
 * Link al **[repositorio](https://github.com/a-jimenezc/plant-disease-app)** y a la [**página web**](https://plant-disease-app-q3sojgpqiq-uc.a.run.app/).
 
