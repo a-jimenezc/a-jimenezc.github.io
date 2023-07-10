@@ -1,3 +1,20 @@
+## [Detector de Enfermedades de Plantas](https://github.com/a-jimenezc/plant-disease-app/ "Clic para acceder al repositorio")
+
+* Se hace disponible una página web que permite subir la fotografía de hojas de plantas y, a partir de esta,  detectar el tipo de hoja y el tipo de enfermedad de la misma.
+* Para tal propósito se usó el algoritmo de detección de objetos [**YOLOv7**](https://arxiv.org/abs/2207.02696) y su implementación open-source hecha por [Wong Kin Yiu](https://github.com/WongKinYiu/yolov7).
+* El algoritmo está implementado en Pythorch, pero la inferencia se realiza usando el formato **ONNX**..
+* La base de datos utilizada fue: [PlantDoc: A Dataset for Visual Plant Disease Detection](https://github.com/pratikkayal/PlantDoc-Dataset). En esta se tienen **13 especies** y hasta **17 enfermedades diferentes**.
+* La página web se desplegó utilizando **docker** y el servicio *serverless* de **Google Cloud Platfom**: Cloud Run.
+* Link al **[repositorio](https://github.com/a-jimenezc/plant-disease-app)**.
+
+
+<p align="center">
+<img src="images4/app.png" alt="Alt text 1" width="300"/>
+</p>
+<p align="center">
+<img src="images4/distr.png" alt="Alt text 2" width="300"/>
+</p>
+
 ## [Predictor de Precio de Vivienda: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
 
 * Se desarrolló un estimador de precios de viviendas para la ciudad Santa Cruz de la Sierra. El modelo se hace accesible el mediante una aplicación de dash: [bienes-raices-scz-ohh5653uva-uc.a.run.app](https://bienes-raices-scz-q3sojgpqiq-uc.a.run.app/).
