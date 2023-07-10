@@ -5,7 +5,7 @@
 * El algoritmo está implementado en Pythorch, pero la inferencia se realiza usando el formato **ONNX**..
 * La base de datos utilizada fue: [PlantDoc: A Dataset for Visual Plant Disease Detection](https://github.com/pratikkayal/PlantDoc-Dataset). En esta se tienen **13 especies** y hasta **17 enfermedades diferentes**.
 * La página web se desplegó utilizando **docker** y el servicio *serverless* de **Google Cloud Platfom**: Cloud Run.
-* Link al **[repositorio](https://github.com/a-jimenezc/plant-disease-app)**.
+* Link al **[repositorio](https://github.com/a-jimenezc/plant-disease-app)** y a la [**página web**](https://plant-disease-app-q3sojgpqiq-uc.a.run.app/).
 
 
 <p align="center">
