@@ -83,16 +83,3 @@
 * [Link al repositorio](https://github.com/a-jimenezc/Prediccion_cancelacion_reserva_de_hotel "Clic para acceder al repositorio")
 
 
-
-## [ Predicción de Enfermedad Cardiaca con Redes Neuronales](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
-
-* Se entrenó una Red Neuronal que permita predecir si un paciente presenta un cuadro de enfermedad de arterias coronarias.
-* Para ello, se probaron tres variaciones del algoritmo **MLP** (Multilayer Perceptron): primero con una, luego con dos y finalmente con tres capas ocultas. En cada caso, se utilizó **Grid Seach** con **Cross-Validation** para seleccionar los hiperparámetros. 
-* Luego, se comparó el desempeño de cada variación del algoritmo, utilizando la métrica **Accuracy**, y se seleccionó el mejor de ellos. Este fue el modelo con una capa oculta con 30 neuronas.
-* Finalmente, se aplicó la **técnica de permutación** para poder identificar las variables más importantes para el modelo y poder así interpretar el mismo.
-* [Link al repositorio](https://github.com/a-jimenezc/Prediccion_de_enfermedad_cardiaca "Clic para acceder al repositorio")
-
-<p align="center">
-<img src="images/scores2.png" alt="Alt text 1" width="400"/>  <img src="images/imprtances_test1.png" alt="Alt text 2" width="400"/>
-</p>
-
