@@ -7,10 +7,10 @@
 
 
 <p align="center">
-<img src="images4/app.png" alt="Alt text 1" width="300"/>
+<img src="media/plant_img/app.png" alt="Alt text 1" width="300"/>
 </p>
 <p align="center">
-<img src="images4/distr.png" alt="Alt text 2" width="300"/>
+<img src="media/plant_img/distr.png" alt="Alt text 2" width="300"/>
 </p>
 
 ## [Predictor de Precio de Vivienda: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
@@ -23,10 +23,10 @@
 * **[Link al repositorio](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")**
 
 <p align="center">
-<img src="images3/app3.png" alt="Alt text 1" width="300"/>
+<img src="media/realstate_img/app3.png" alt="Alt text 1" width="300"/>
 </p>
 <p align="center">
-<img src="images3/app2.png" alt="Alt text 2" width="500"/>
+<img src="media/realstate_img/app2.png" alt="Alt text 2" width="500"/>
 </p>
 
 * Adicionalmente el modelo es accesible mediante una **API** implmenetada usando **Flask**. [Link al repositorio de la API](https://github.com/a-jimenezc/bienes_raices_scz_api "Clic para acceder al repositorio").
@@ -38,13 +38,13 @@
 * Para la determinación de los hiperparámetros, se utilizaron las **métricas de la silueta, la inercia** y **BIC** (Bayesian Information Criterion).  
 * Luego, se comparó el desempeño de los modelos, usando la métrica de la silueta, y se seleccionó el mejor de ellos.
 <p align="center">
-<img src="images1/comparison.png" alt="Alt text 1" width="400"/>
+<img src="media/segm_img/comparison.png" alt="Alt text 1" width="400"/>
 </p>
 * El mejor modelo fue **K-means** con cuatro segmentos o grupos (clusters).
 * Finalmente, se inspeccionó visualmente el resultado para el mejor modelo y se guardaron los datos con la nueva columna de etiquetas.
 * [Link al repositorio](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
 <p align="center">
-<img src="images1/result1.png" alt="Alt text 1" width="300"/> <img src="images1/result2.png" alt="Alt text 2" width="300"/>
+<img src="media/segm_img/result1.png" alt="Alt text 1" width="300"/> <img src="media/segm_img/result2.png" alt="Alt text 2" width="300"/>
 </p>
 
 
@@ -54,7 +54,7 @@
 * El primer paso fue realizar una exploración inicial de datos. 
 
 <p align="center">
-<img src="images2/serie.png" alt="Alt text 1" width="500"/> <img src="images2/violin.png" alt="Alt text 2" width="500"/>
+<img src="media/agua_img/serie.png" alt="Alt text 1" width="500"/> <img src="media/agua_img/violin.png" alt="Alt text 2" width="500"/>
 </p>
 
 * Luego, se probaron tres modelos diferentes. El primero fue un modelo **ARMA**, el segundo un modelo **RNN** (*Recurrent Neural Network*) y el tercero fue un **LSTM** (*Long-Short Term Memory*).
@@ -62,24 +62,5 @@
 * [Link al repositorio](https://github.com/a-jimenezc/Prediccion-PH-de-Agua "Clic para acceder al repositorio")
 
 <p align="center">
-<img src="images2/arma.png" alt="Alt text 1" width="400"/> 
+<img src="media/agua_img/arma.png" alt="Alt text 1" width="400"/> 
 </p>
-
-
-## [ Predicción de Cancelación de Reserva de Hotel](https://github.com/a-jimenezc/Prediccion_cancelacion_reserva_de_hotel "Clic para acceder al repositorio")
-
-* Se desarrolló un modelo que permita predecir si un cliente cancelará o no su reservación de hotel. Se priorizó la capacidad de predicción del modelo sobre la explicabilidad.
-* En la exploración inicial de datos, se identificaron las variables con mayor correlación con la variable objetivo. Para esto, se utilizó la correlación de Spearman.
-<p align="center">
-<img src="images2/corr_bar1.png" alt="Alt text 1" width="400"/>
-</p>
-* Se entrenaron cuatro modelos diferentes: **Logistic Regression, K-Nearest Neighbor, Extra Tree Classifier** y **Gradient Boosting**. Los hiperparámetros se determinaron con **Grid Search** con **Cross-Validation**, usando la librería Scikit-learn. Se utilizó la métrica **f1** como referencia para esta búsqueda.
-* Luego, se hizo la comparación de los modelos para seleccionar el mejor.  
-<p align="center">
-<img src="images2/scores1.png" alt="Alt text 1" width="400"/>
-</p>
-* El algoritmo seleccionado es **Gradient Boosting**, con "learning_rate=1" y "n_estimators=600".
-* Una evaluación posterior muestra que este modelo tiene un buen desempeño con las métricas *precision* y *recall*.
-* [Link al repositorio](https://github.com/a-jimenezc/Prediccion_cancelacion_reserva_de_hotel "Clic para acceder al repositorio")
-
-
