@@ -1,15 +1,10 @@
 ## [Ask the PDF](https://github.com/a-jimenezc/pdf_chat)
 
-* I have developed a web application that allows users to upload a PDF document and, regardless of its size, initiate a question-and-answer process. 
-
+* I developed a web application that allows users to upload a PDF document and, regardless of its size, initiate a question-and-answer process.
 * It also generates a concise summary in a table-of-contents format as a guide and includes references to the text that the response was based on.
-
 * It utilizes LLaMA 2 or gpt-3.5 Turbo as its language models.
-
 * [**LangChain**](https://www.langchain.com/) served as the orchestration library for interfacing with the Large Language Models.
-
 * [**Gradio**](https://www.gradio.app/) was used to create the user interface. The application was deployed using **Docker** and **Cloud Run**, Google's serverless service.
-
 * While it was designed primarily for Spanish speakers, the application also supports responses in English.
 
 <div>
