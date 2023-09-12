@@ -1,66 +1,83 @@
-## [Detector de Enfermedades de Plantas](https://github.com/a-jimenezc/plant-disease-app/ "Clic para acceder al repositorio")
+## [Ask the PDF](https://github.com/a-jimenezc/pdf_chat)
 
-* Se construye una página web que permite subir una fotografía de las hojas de una planta y, a partir de esta,  detectar el tipo de hoja y el tipo de enfermedad en la misma. La misma tiene la capacidad de detectar **13 especies** de plantas y hasta **17 enfermedades diferentes**.
-* Para tal propósito se usó el algoritmo de detección de objetos [**YOLOv7**](https://arxiv.org/abs/2207.02696) y la implementación open-source hecha por [Wong Kin Yiu](https://github.com/WongKinYiu/yolov7). El algoritmo está implementado en PyThorch, pero la inferencia se realiza usando el formato **ONNX**.
-* La página web se desplegó utilizando **Docker** y el servicio *serverless* de **Google Cloud Platfom**: Cloud Run.
-* Link al **[repositorio](https://github.com/a-jimenezc/plant-disease-app)** y a la [**página web**](https://plant-disease-app-q3sojgpqiq-uc.a.run.app/).
+* I have developed a web application that allows users to upload a PDF document and, regardless of its size, initiate a question-and-answer process. 
 
+* It also generates a concise summary in a table-of-contents format as a guide and includes references to the text that the response was based on.
 
+* It utilizes LLaMA 2 or gpt-3.5 Turbo as its language models.
+
+* [**LangChain**](https://www.langchain.com/) served as the orchestration library for interfacing with the Large Language Models.
+
+* [**Gradio**](https://www.gradio.app/) was used to create the user interface. The application was deployed using **Docker** and **Cloud Run**, Google's serverless service.
+
+* While it was designed primarily for Spanish speakers, the application also supports responses in English.
+
+<div>
 <p align="center">
-<img src="media/plant_img/app.png" alt="Alt text 1" width="300"/>
+    <img src="media/pdf_img/pdf_img1.png" alt="Alt text 1" width="300"/>
 </p>
 <p align="center">
-<img src="media/plant_img/distr.png" alt="Alt text 2" width="300"/>
+    <img src="media/pdf_img/pdf_img2.png" alt="Alt text 2" width="300"/>
 </p>
+</div>
 
-## [Predictor de Precio de Vivienda: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")
 
-* Se desarrolló un estimador de precios de viviendas para la ciudad Santa Cruz de la Sierra. El modelo se hace accesible el mediante una aplicación de dash: [bienes-raices-scz-ohh5653uva-uc.a.run.app](https://bienes-raices-scz-q3sojgpqiq-uc.a.run.app/).
-* Se utilizó **web scraping** para extraer datos de páginas de venta de viviendas. Se realizó un preprocesamiento de estos datos y un análisis exploratorio de los mismos.
-* Se entrenaron varios modelos de regresión, incluyendo **Gradient Boosting Regressor**, y se evaluó su desempeño utilizando **R2** (coeficiente de determinación) como métrica.
-* Se implementó una página web interactiva utilizando **Dash**, **Docker** y el servicio **Cloud Run** de Google. En esta, los usuarios pueden estimar el precio de una vivienda.
-* En la misma página, se pesenta un **dashboard interactivo** en el cual es posible explorar los datos utilizados en el modelo.
-* **[Link al repositorio](https://github.com/a-jimenezc/bienes_raices_scz "Clic para acceder al repositorio")**
+## [Plant Disease Detector](https://github.com/a-jimenezc/plant-disease-app/ "Click to access the repository")
 
+* I built a web application that allows users to upload a photograph of a plant's leaves and, based on this, detect the type of leaf and the type of disease present. It has the capability to detect **13 species** of plants and up to **17 different diseases**.
+* For this purpose, the object detection algorithm [**YOLOv7**](https://arxiv.org/abs/2207.02696) was used, along with the open-source implementation by [Wong Kin Yiu](https://github.com/WongKinYiu/yolov7). The algorithm is implemented in PyTorch, but inference is performed using the **ONNX** format.
+* The web application was deployed using **Docker** and Google Cloud Platform's serverless service: Cloud Run.
+* Link to the **[repository](https://github.com/a-jimenezc/plant-disease-app)** and the website: [**plant-disease.dsapp.me**](https://plant-disease.dsapp.me)
+* The website is intended for Spanish speakers.
+
+<div>
 <p align="center">
-<img src="media/realstate_img/app3.png" alt="Alt text 1" width="300"/>
+    <img src="media/plant_img/app.png" alt="Alt text 1" width="300"/>
 </p>
 <p align="center">
-<img src="media/realstate_img/app2.png" alt="Alt text 2" width="500"/>
+    <img src="media/plant_img/distr.png" alt="Alt text 2" width="300"/>
 </p>
+</div>
 
-* Adicionalmente el modelo es accesible mediante una **API** implmenetada usando **Flask**. [Link al repositorio de la API](https://github.com/a-jimenezc/bienes_raices_scz_api "Clic para acceder al repositorio").
+## [Housing Price Predictor: Santa Cruz de la Sierra](https://github.com/a-jimenezc/bienes_raices_scz "Click to access the repository")
 
-## [ Segmentación de Clientes](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
+* I developed a housing price estimator  for the city of Santa Cruz de la Sierra. The model is made accessible through a Dash application: [realstate-scz.dsapp.me](https://realstate-scz.dsapp.me).
+* **Web scraping** was used to extract data from real estate listing pages. Data preprocessing and exploratory analysis were also performed.
+* Several regression models, including the **Gradient Boosting Regressor**, were trained, and their performance was evaluated using **R2** (coefficient of determination) as a metric.
+* An interactive web page was implemented using **Dash**, **Docker**, and Google's **Cloud Run** service. On this page, users can estimate the price of a home.
+* The same page features an **interactive dashboard** where it is possible to explore the data used in the model.
+* **[Link to the repository](https://github.com/a-jimenezc/bienes_raices_scz "Click to access the repository")**
+* The website is intended for Spanish speakers.
 
-* Se segmentaron a los clientes de un supermercado, usando la información obtenida a través de las tarjetas de membresía del mismo y con la limitación de un reducido número de segmentos.
-* Tres algoritmos de agrupamiento distintos fueron evaluados: **K-means, HDBSCAN** y **Gaussian Mixture Model**. Se utilizó la librería **Scikit-learn** para K-means y GMM, mientras que para el algoritmo *HDBSCAN* se utilizó la librería **hdbscan**.
-* Para la determinación de los hiperparámetros, se utilizaron las **métricas de la silueta, la inercia** y **BIC** (Bayesian Information Criterion).  
-* Luego, se comparó el desempeño de los modelos, usando la métrica de la silueta, y se seleccionó el mejor de ellos.
+<div>
 <p align="center">
-<img src="media/segm_img/comparison.png" alt="Alt text 1" width="400"/>
+    <img src="media/realstate_img/app3.png" alt="Alt text 1" width="300"/>
 </p>
-* El mejor modelo fue **K-means** con cuatro segmentos o grupos (clusters).
-* Finalmente, se inspeccionó visualmente el resultado para el mejor modelo y se guardaron los datos con la nueva columna de etiquetas.
-* [Link al repositorio](https://github.com/a-jimenezc/segmentacion_de_clientes "Clic para acceder al repositorio")
 <p align="center">
-<img src="media/segm_img/result1.png" alt="Alt text 1" width="300"/> <img src="media/segm_img/result2.png" alt="Alt text 2" width="300"/>
+    <img src="media/realstate_img/app2.png" alt="Alt text 2" width="500"/>
 </p>
+</div>
 
+## [Customer Segmentation](https://github.com/a-jimenezc/segmentacion_de_clientes "Click to access the repository")
 
-## [ Predicción del PH de la Planta de Tratameinto de Agua Potable Achachicala](https://github.com/a-jimenezc/Prediccion-PH-de-Agua "Clic para acceder al repositorio")
+* Customers of a supermarket were segmented using information obtained from their membership cards, with the constraint of a limited number of segments. The [data](https://www.kaggle.com/datasets/dev0914sharma/customer-clustering) was obtainded from kaggle.
+* Three different clustering algorithms were evaluated: **K-means, HDBSCAN,** and **Gaussian Mixture Model (GMM)**. The **Scikit-learn** library was used for K-means and GMM, while the **hdbscan** library was used for HDBSCAN.
+* **Silhouette score, inertia**, and **BIC (Bayesian Information Criterion)** metrics were used to determine hyperparameters.
+* The models' performance was then compared using the silhouette score, and the best-performing model was selected.
 
-* Se desarrolló un modelo que permita predecir la nivel de PH de la planta de tratamiento de agua Achichicala, ubicada en la ciudad de La Paz, a partir de los datos tomados diariamente en un lapso de 6 meses.
-* El primer paso fue realizar una exploración inicial de datos. 
-
+<div>
 <p align="center">
-<img src="media/agua_img/serie.png" alt="Alt text 1" width="500"/> <img src="media/agua_img/violin.png" alt="Alt text 2" width="500"/>
+    <img src="media/segm_img/comparison.png" alt="Comparison" width="400"/>
 </p>
+</div>
 
-* Luego, se probaron tres modelos diferentes. El primero fue un modelo **ARMA**, el segundo un modelo **RNN** (*Recurrent Neural Network*) y el tercero fue un **LSTM** (*Long-Short Term Memory*).
-* Finalmente, se seleccionó el modelo **ARMA**. Esto debido a su buen desempeño y simplicidad.
-* [Link al repositorio](https://github.com/a-jimenezc/Prediccion-PH-de-Agua "Clic para acceder al repositorio")
+* The best model was **K-means** with four segments or clusters.
+* Finally, a visual inspection of the results for the best model was performed, and the data was saved with a new label column.
+* [Link to the repository](https://github.com/a-jimenezc/segmentacion_de_clientes "Click to access the repository")
 
+<div>
 <p align="center">
-<img src="media/agua_img/arma.png" alt="Alt text 1" width="400"/> 
+    <img src="media/segm_img/result1.png" alt="Alt text 1" width="300"/> <img src="media/segm_img/result2.png" alt="Alt text 2" width="300"/>
 </p>
+</div>
+
