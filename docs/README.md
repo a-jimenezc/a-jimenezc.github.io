@@ -6,6 +6,7 @@
 * [**LangChain**](https://www.langchain.com/) served as the orchestration library for interfacing with the Large Language Models.
 * [**Gradio**](https://www.gradio.app/) was used to create the user interface. The application was deployed using **Docker** and **Cloud Run**, Google's serverless service.
 * While it was designed primarily for Spanish speakers, the application also supports responses in English.
+* The app is accessible at **[pdf.dsapp.me](https://https://pdf.dsapp.me/)**
 
 <div>
 <p align="center">
@@ -23,7 +24,7 @@
 * For this purpose, the object detection algorithm [**YOLOv7**](https://arxiv.org/abs/2207.02696) was used, along with the open-source implementation by [Wong Kin Yiu](https://github.com/WongKinYiu/yolov7). The algorithm is implemented in PyTorch, but inference is performed using the **ONNX** format.
 * The web application was deployed using **Docker** and Google Cloud Platform's serverless service: Cloud Run.
 * Link to the **[repository](https://github.com/a-jimenezc/plant-disease-app)** and the website: [**plant-disease.dsapp.me**](https://plant-disease.dsapp.me)
-* The website is intended for Spanish speakers.
+* The web application is intended for Spanish speakers.
 
 <div>
 <p align="center">
