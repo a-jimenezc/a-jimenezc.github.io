@@ -1,3 +1,5 @@
+# Projects
+
 ## [Ask the PDF](https://github.com/a-jimenezc/pdf_chat)
 
 * I developed a web application that allows users to upload a PDF document and, regardless of its size, initiate a question-and-answer process.
@@ -76,4 +78,8 @@
     <img src="media/segm_img/result1.png" alt="Alt text 1" width="300"/> <img src="media/segm_img/result2.png" alt="Alt text 2" width="300"/>
 </p>
 </div>
+
+# Publications
+
+["Document Topic Extraction with Large Language Models (LLM) and the Latent Dirichlet Allocation (LDA) Algorithm"](https://towardsdatascience.com/document-topic-extraction-with-large-language-models-llm-and-the-latent-dirichlet-allocation-e4697e4dae87) - Published on Towards Data Science.
 
